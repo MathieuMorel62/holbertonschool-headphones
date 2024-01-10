@@ -4,14 +4,26 @@
     font-family: "Source Sans Pro";
     src: url("assets/fonts/SourceSansPro-Regular.otf");
   }
+  @font-face {
+    font-family: "Source Sans Pro Bold";
+    src: url("assets/fonts/SourceSansPro-Bold.otf");
+  }
+  @font-face {
+    font-family: "Source Sans Pro Semi Bold";
+    src: url("assets/fonts/SourceSansPro-Semibold.otf");
+  }
 
 /* VARIABLES
   ======================== */
   :root {
     --main-font: "Source Sans Pro", sans-serif;
+    --main-font-bold: "Source Sans Pro Bold", sans-serif;
+    --main-font-semi-bold: "Source Sans Pro Semi Bold", sans-serif;
     --primary-color: #ff6565;
-    --hover-color: #e64a4a;
+    --secondary-color: #071629;
     --white-color: #ffffff;
+    --black-color: #000000;
+    --hover-color: #e64a4a;
   }
 
 /* RESET
@@ -60,7 +72,7 @@
   }
 
   .header-logo img {
-    width: 10rem;
+    width: 15rem;
     height: auto;
   }
 
@@ -73,8 +85,9 @@
 
   .navigation-list li {
     padding-left: 2rem;
-    font-size: 0.75rem;
+    font-size: 1.1rem;
     display: inline-block;
+    font-family: var(--main-font-bold);
   }
 
   .navigation-list a:hover {
@@ -127,19 +140,21 @@
   }
 
   .bottom-section h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-family: var(--main-font-bold);
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
   }
   .bottom-section h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--main-font-bold);
     font-weight: 700;
     line-height: normal;
   }
   .bottom-section p {
     width: 70%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.925rem;
   }
@@ -148,12 +163,13 @@
     background-color: var(--primary-color);
     text-transform: uppercase;
     cursor: pointer;
-    width: 10.125rem;
-    height: 2.75rem;
+    width: 13.125rem;
+    height: 3.75rem;
     flex-shrink: 0;
     border-radius: 3.4rem;
-    font-size: 0.875rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-family: var(--main-font-bold);
+    font-weight: 400;
     color: var(--white-color);
     border: none;
     margin-top: 3rem;
@@ -173,7 +189,7 @@
     }
 
     .header-logo img {
-      width: 12.5rem;
+      width: 200px;
       height: auto;
       margin-top: 10px;
     }
@@ -267,7 +283,7 @@
     }
 
     .navigation-list li {
-      font-size: 0.75rem;
+      font-size: 1rem;
     }
 
     .bottom-section {
@@ -298,3 +314,45 @@
       margin-bottom: 4rem;
     }
   }
+
+/* SECTION WHAT WE DO
+  ======================== */
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  .services-description {
+    display: flex;
+    width: 39.813rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+  }
+  .services-description h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.9rem;
+    font-family: var(--main-font-semi-bold);
+  }
+  .services-description p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+  }
+  .services-icons {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 58px;
+    margin-top: 100px;
+  
+}
