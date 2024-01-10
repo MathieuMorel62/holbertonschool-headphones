@@ -60,7 +60,7 @@
     background-image: url("./assets/images/headphones_hero_1.jpg");
     background-size: cover;
     background-position: center;
-    height: 62.5rem;
+    height: 67.5rem;
   }
 
   /* Top section */
@@ -268,10 +268,10 @@
     }
   }
 
-  @media (min-width: 481px) and (max-width: 921px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     .header-background {
       background-position: 37% 0;
-      width: 921px;
+      width: 768px;
     }
 
     .header-logo img {
@@ -336,7 +336,7 @@
   }
 
   .services-description h1 {
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 1.9rem;
@@ -387,23 +387,26 @@
 /* MEDIA QUERIES SERVICES
   ======================== */
   @media (max-width: 636px) {
-
     .services-description {
       width: 20.3rem;
       height: 13rem;
     }
+  
     .services-description h1 {
       font-size: 2rem;
       margin-bottom: 2.5rem;
+      margin-top: 3rem;
       width: 11.8rem;
       height: 2.5rem;
     }
+  
     .services-description p {
       width: 20.3rem;
       height: 13rem;
       font-size: 1rem;
       line-height: 1.625rem;
     }
+  
     .services-icons {
       display: grid;
       grid-template-columns: 1fr;
@@ -411,24 +414,25 @@
     }
   }
 
-  @media (min-width: 481px) and (max-width: 921px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     .services {
-      width: 921px;
+      width: 768px;
     }
+  
     .services-description {
       width: 39.8rem;
       height: 11.5rem;
     }
+  
     .services-description p {
       width: 39.8rem;
       height: 6.5rem;
       font-size: 1rem;
       line-height: 1.625rem;
     }
+
     .services-icons {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 3.6rem
-      ;
     }
   }
