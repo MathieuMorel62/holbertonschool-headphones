@@ -284,7 +284,7 @@
     }
 
     .bottom-section {
-      margin: 45vw 5vw 10vw;
+      margin: 40vw 5vw 10vw;
     }
 
     .bottom-section h1 {
@@ -384,7 +384,7 @@
     margin-bottom: 6.8rem;
   }
 
-/* MEDIA SERVICES
+/* MEDIA QUERIES SERVICES
   ======================== */
   @media (max-width: 636px) {
 
@@ -407,6 +407,7 @@
     .services-icons {
       display: grid;
       grid-template-columns: 1fr;
+      gap: 0.6rem;
     }
   }
 
