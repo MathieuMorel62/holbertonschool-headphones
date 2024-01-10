@@ -538,27 +538,29 @@
     }
 
     .description-results h1 {
-      width: 266px;
-      height: 80px;
-      margin-top: 125px;
-      font-size: 32px;
+      width: 16.6rem;
+      height: 5rem;
+      font-size: 2rem;
     }
+
     .description-results p {
-      width: 305px;
-      height: 208px;
-      font-size: 16px;
-      line-height: 26px;
+      width: 19rem;
+      height: 13rem;
+      font-size: 1rem;
+      line-height: 1.6rem;
     }
+
     .results-figures {
       display: grid;
       grid-template-columns: 1fr;
       gap: 0.6rem;
-      padding-bottom: 60px;
+      padding-bottom: 3.75rem;
       justify-items: center;
       align-items: center;
     }
+
     .result-item {
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
   }
 
