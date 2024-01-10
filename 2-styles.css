@@ -541,6 +541,8 @@
       width: 16.6rem;
       height: 5rem;
       font-size: 2rem;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
 
     .description-results p {
