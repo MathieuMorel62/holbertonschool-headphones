@@ -395,8 +395,8 @@
   
     .services-description h1 {
       font-size: 2rem;
-      margin-bottom: 1em;
-      margin-top: 3em;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
       width: 11.8rem;
       height: 2.5rem;
     }
@@ -411,7 +411,7 @@
     .services-icons {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 0.6em;
+      gap: 0.6rem;
     }
   }
 
