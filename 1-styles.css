@@ -312,7 +312,7 @@
     }
   }
 
-/* SECTION WHAT WE DO
+/* SECTION SERVICES
   ======================== */
   /* Top section */
   .services {
@@ -359,12 +359,12 @@
     justify-content: center;
     align-items: center;
     gap: 4vw;
-    margin-top: 9.2rem;
+    margin-top: 6rem;
   }
 
   .services-icons img {
-    width: 4.25rem;
-    height: 4rem;
+    width: 5.88rem;
+    height: 4.085rem;
   }
 
   .services-icons h3 {
