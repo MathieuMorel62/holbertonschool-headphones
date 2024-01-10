@@ -392,7 +392,7 @@
   
     .services-description h1 {
       font-size: 2rem;
-      padding-bottom: 3rem;
+      margin-bottom: 20px;
       width: 12rem;
       height: 2.5rem;
     }
