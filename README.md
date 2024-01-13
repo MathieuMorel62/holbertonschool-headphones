@@ -1,4 +1,6 @@
-# Implement a design from scratch
+# Implement a Design From Scratch
+
+<img width="100%" alt="Capture d’écran 2024-01-13 à 22 30 16" src="https://github.com/MathieuMorel62/holbertonschool-headphones/assets/113856302/132b2ae9-ccd6-4cb7-b6b0-a256d36d7479">
 
 ## Description
 The "Intuitive Web Design" project is an exciting venture into the world of web development, aiming to create a web page from scratch. This project stands out for its focus on **intuitive design**, **accessibility**, and **responsiveness**, providing a smooth and enjoyable user experience across various devices.
