@@ -1,4 +1,4 @@
-# Intuitive Web Design Project
+# Implement a design from scratch
 
 ## Description
 The "Intuitive Web Design" project is an exciting venture into the world of web development, aiming to create a web page from scratch. This project stands out for its focus on **intuitive design**, **accessibility**, and **responsiveness**, providing a smooth and enjoyable user experience across various devices.
